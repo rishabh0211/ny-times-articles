@@ -25,6 +25,8 @@ This is a React application that fetches and displays articles from the New York
 
    ```bash
    git clone https://github.com/your-username/react-nyt-articles.git
+   ```
+   ```
    cd react-nyt-articles
    ```
 
@@ -32,11 +34,13 @@ This is a React application that fetches and displays articles from the New York
 
    ```bash
    npm install
-   # or
+   ```
+   or
+   ```
    yarn install
    ```
 
-3. Create a `.env` file in the root directory and add your NY Times API key:
+4. Create a `.env` file in the root directory and add your NY Times API key:
 
    ```env
    VITE_NYT_API_KEY=your_api_key_here
@@ -44,15 +48,17 @@ This is a React application that fetches and displays articles from the New York
 
    You can get the API key by signing up on [NY Times Developer site](https://developer.nytimes.com/get-started)
 
-4. Start the development server:
+5. Start the development server:
 
    ```bash
    npm run dev
-   # or
+   ```
+   or
+   ```
    yarn dev
    ```
 
-5. Open the app in your browser at `http://localhost:5173`.
+7. Open the app in your browser at `http://localhost:5173`.
 
 ## Scripts
 
